@@ -14,7 +14,7 @@ import { useIsDrawerOpen } from '@react-navigation/drawer';
 
 const App: () => React$Node=()=> {
   return(
-    //  <Drawer.Navigator/> 
+    // // <Drawer.Navigator/> 
      <Navigator/>
     // <Loader/>  
     );
