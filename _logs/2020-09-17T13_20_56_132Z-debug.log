@@ -1,0 +1,24 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'react-navigation\\drawer\\src\\views\\DrawerContentScrollView.tsx'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v14.4.0
+4 verbose npm-session d8d48fea0e0e8492
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData error for file:react-navigation\drawer\src\views\DrawerContentScrollView.tsx Could not install from "react-navigation\drawer\src\views\DrawerContentScrollView.tsx" as it does not contain a package.json file.
+8 timing stage:rollbackFailedOptional Completed in 1ms
+9 timing stage:runTopLevelLifecycles Completed in 1791ms
+10 verbose stack Error: ENOENT: no such file or directory, open 'D:\ReactNative\PotHoleDetector\react-navigation\drawer\src\views\DrawerContentScrollView.tsx\package.json'
+11 verbose cwd D:\ReactNative\PotHoleDetector
+12 verbose Windows_NT 10.0.18363
+13 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "react-navigation\\drawer\\src\\views\\DrawerContentScrollView.tsx"
+14 verbose node v14.4.0
+15 verbose npm  v6.14.5
+16 error code ENOLOCAL
+17 error Could not install from "react-navigation\drawer\src\views\DrawerContentScrollView.tsx" as it does not contain a package.json file.
+18 verbose exit [ 1, true ]
